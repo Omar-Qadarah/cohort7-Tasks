@@ -1,0 +1,106 @@
+body{
+    background-color: #eaf3f2;
+    color: #0b2d4b;
+    font-family: Arial, sans-serif;
+}
+/* header{
+    display: flex;
+    justify-content: space-between;
+} */
+ nav{margin-left:auto;
+    }
+    h2{
+        text-decoration: center;
+    }
+nav a{
+    background-color: #0b2d4b;
+    color: #eaf3f2;
+    padding: 10px;
+    border:#00a896 solid 2px;
+    border-radius: 10px;
+    text-decoration: none;
+    
+}
+.logo img {
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;
+}
+.logo sub{
+   
+    font-size: 0.5em;
+    color: #00a896;
+    
+}
+.cta-button {
+    background-color: #00a896;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+     margin-top: 50px;
+    
+}
+#intro>img{
+    height: 500px;
+    width:50%;
+    display: flex;
+    margin: 0 0 0 auto;
+}
+#intro {
+    background-color: #EAF3F2;
+    color: #0b2d4b;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+#intro div {
+    width: 50%;
+}
+#purpose {
+    background-color: #eaf3f2;
+    color: #0b2d4b;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+#resources {
+    background-color: #A7E3D9;
+    color: #0b2d4b;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+#community {
+    background-color: #eaf3f2;
+    color: #0b2d4b;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#contact {
+    background-color: #A7E3D9;
+    color: #0b2d4b;
+    padding: 20px;
+    text-align: center;
+}
+footer {
+    background-color: #eaf3f2;
+    color: #0b2d4b;
+    padding: 20px;
+    text-align: center;
+}
