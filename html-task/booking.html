@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Book your Tokyo travel package — enter your personal details, choose flights, hotel, and travel class, and add optional services.">
+  <meta name="keywords" content="Tokyo booking form, book flight Japan, travel reservation, hotel booking Tokyo">
+  <title>Book Your Trip — Tokyo Travel Reservation</title>
+  <link rel="icon" href="img/booking.png">
+
+</head>
+<body>
+    <!---------- header and navigation------------ -->
+    <header>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Tokyo Travel Guide - Discover Japan's Dynamic Capital City</a></li>
+                    <li><a href="index.html#destination">Destination</a></li>
+                    <li><a href="index.html#Travel-Info">Travel Information</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1>Book Your Trip to Tokyo</h1>
+        <p>Fill out the form below to reserve your travel package to Tokyo, Japan. Please provide accurate information to ensure a smooth booking process.</p>
+
+        <form action="submit_booking.php" method="post">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" placeholder="sponge bob squarepants" required><br><br>
+
+            <label for="dateOfBirth">Date of Birth: </label>
+            <input type="date" id="dateOfBirth" name="dateOfBirth" required><br><br>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required><br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="123-456-7890"><br><br>
+
+            <label for="password">Create Password:</label>
+            <input type="password" id="password" name="password" placeholder="Create a strong password" required><br><br>
+
+            <label for="departureCity">Departure City:</label>
+           
+             <input type="text" id="departureCity" name="departureCity" placeholder="e.g., bikini bottom" required>
+             </div><br><br>
+
+             <label for="destination">Destination</label>
+             <select id="destination" name="destination" required>
+                <optgroup label="Asia">
+                 <option value="tokyo" selected>Tokyo, Japan</option>
+                 <option value="bangkok">Bangkok, Thailand</option>
+                 <option value="seoul">Seoul, South Korea</option>
+                </optgroup>
+                <optgroup label="Europe">
+                 <option value="rome">Rome, Italy</option>
+                 <option value="lisbon">Lisbon, Portugal</option>
+                </optgroup>
+                <optgroup label="Middle East">
+                 <option value="dubai">Dubai, UAE</option>
+                 <option value="amman">Amman, Jordan</option>
+                </optgroup>
+             </select><br><br>
+
+            <label for="travelDate">Travel Date:</label>
+            <input type="date" id="travelDate" name="travelDate" required><br><br>
+
+            <label for="flightClass">Flight Class:</label>
+            <input type="radio" id="economy" name="flightClass" value="economy">
+            <label for="economy">Economy</label>
+            <input type="radio" id="business" name="flightClass" value="business">
+            <label for="business">Business</label>
+            <input type="radio" id="first" name="flightClass" value="first">
+            <label for="first">First Class</label><br><br>
+            <div>
+                Additional Services (optional):
+
+             <label class="choice"><input type="checkbox" name="services" value="transfer"> Airport transfer</label>
+             <label class="choice"><input type="checkbox" name="services" value="hotel"> Hotel reservation</label>
+             <label class="choice"><input type="checkbox" name="services" value="insurance"> Travel insurance</label>
+             <label class="choice"><input type="checkbox" name="services" value="tour"> Guided tour</label>
+            </div><br><br>
+
+            <label for="hotelPreference">Hotel Preference:</label>
+            <select id="hotelPreference" name="hotelPreference">
+                <option value="standard">Standard</option>
+                <option value="deluxe">Deluxe</option>
+                <option value="suite">Suite</option>
+            </select><br><br>
+
+            <input type="submit" value="Submit Booking">
+        </form>
+    </main>
+</body>
+</html>
