@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(3,100px);
+    gap:10px;
+    padding: 40px;
+}
+.parent div{
+   color:#f1f1f1;
+   text-align: center;
+   font-size: 1em;
+   padding-top: 40px;
+
+}
+.parent :nth-child(1){
+    background: #fc7186;
+    border-radius:10px;
+    z-index: 1;
+    position: relative;
+    top:70px;
+    left:70px;
+
+}
+.parent :nth-child(2){
+
+    background: #38bdf8;
+    border-radius:10px;
+}
+.parent :nth-child(3){
+
+    background: #facc16;
+    border-radius:10px;
+}
+.parent :nth-child(4){
+
+    background: #4ade80;
+    border-radius:10px;
+}
+.parent :nth-child(5){
+
+    background: #a78bfa;
+    border-radius:10px;
+}
+.parent :nth-child(6){
+
+    background: #f473b6;
+    border-radius:10px;
+}
+.parent :nth-child(7){
+
+    background: #fc7186;
+    border-radius:10px;
+}
+.parent :nth-child(8){
+
+    background: #3abcf6;
+    border-radius:10px;
+}
+.parent :nth-child(9){
+
+    background: #4ade80;
+    border-radius:10px;
+}
+.parent :nth-child(10){
+
+    background: #facc16;
+    border-radius:10px;
+}
+.parent :nth-child(11){
+
+    background: #a78bfa;
+    border-radius:10px;
+}
+.parent :nth-child(12){
+
+    background: #f473b6;
+    border-radius:10px;
+}

@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 100px;
+}
+section{
+    display: flex;
+}
+article{
+    font-size: 1.5em;
+    width: 250px;
+    /* height:500px; */
+    background: #4c7297;
+    color:#ddf4f9;
+    border: solid 1px #78a4b7;
+    border-radius: 7px;
+    padding: 10px;
+}

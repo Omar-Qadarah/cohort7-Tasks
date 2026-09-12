@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+    padding: 40 px;
+}
+.relative{
+    position: relative;
+    border:2px solid #1f1f1f;
+    padding:10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 100px;
+}
+
+.fixed{
+    position: fixed;
+    z-index: 2;
+    background: #0000fe;
+    width: 900px;
+    height: 70px;
+    margin-left: 50px;
+    margin-top: -30px;
+    color:#f1f1f1;
+    padding: 10px;
+}
+
+.absolute{
+    position: absolute;
+    background: #90ee90;
+    padding: 10px;
+    height: 100px;
+    width: 400px;
+    margin-top: -140px;
+    margin-left: 300px;
+
+}

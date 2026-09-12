@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding:50px;
+}
+.parent{
+    display:flex;
+    border:#a0afb1 solid 2px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    height:400px;
+    width:500px;
+}
+.parent div{
+    background: #4c7297;
+    color:#e4feff;
+    /* height: 50px;
+    width:200px; */
+    font-size: 1.5em;
+    padding: 10px;
+}

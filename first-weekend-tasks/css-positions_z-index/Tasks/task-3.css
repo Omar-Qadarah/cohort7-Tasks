@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    height: 100vh;
+}
+div{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+body :nth-child(1){
+    background: #f03d64;
+    top:0;
+    left: 0;
+    /* right:0; */
+    /* bottom: 0; */
+}
+body :nth-child(2){
+    background: #44accf;
+    top:0;
+    /* left: 0; */
+    right:0;
+    /* bottom: 0; */
+}
+body :nth-child(3){
+    background: #b8d74b;
+    /* top:0; */
+    left: 0;
+    /* right:0; */
+    bottom: 0;
+}
+body :nth-child(4){
+    background: #ebde52;
+    /* top:0; */
+    /* left: 0; */
+    right:0;
+    bottom: 0;
+}

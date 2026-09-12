@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 100px;
+}
+div{
+    border: 2px blue solid;
+    width:200px;
+    height: 200px;
+    text-align: center;
+    padding: 70px;
+    box-shadow:10px -10px 0 #63d461,
+    20px -20px 0 #ffda1c,
+    30px -30px 0 #ffae75,
+    40px -40px 0 #ff5555;
+    
+}

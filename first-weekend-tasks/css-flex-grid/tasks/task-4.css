@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding:80px;
+}
+article{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:50%;
+    margin: auto;
+}
+div{
+    background: #4c7297;
+    color: #eefaff;
+    border: #83a2b1;
+    border-radius: 10px;
+    padding: 10px;
+    width:30%;
+    margin-bottom: 10px;
+    /* flex:1 1 300px; */
+}
+.small{
+    width: 20%;
+    /* flex:1; */
+}

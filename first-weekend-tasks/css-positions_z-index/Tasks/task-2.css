@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.relative{
+    position: relative;
+    color:#f1f1f1;
+}
+.relative :nth-child(1){
+    position: absolute;
+    background: #3b16d7;
+    z-index: 0;
+    width:100px;
+    height: 100px;
+    border-radius: 10px;
+    padding: 3px;
+    top:20px;
+    left:20px;
+}
+.relative :nth-child(2){
+    position: absolute;
+    background: #d72006;
+    z-index: 1;
+    top:40px;
+    left: 40px;
+    width:100px;
+    height: 100px;
+    border-radius: 10px;
+    padding: 3px;
+
+}
+.relative :nth-child(3){
+    position: absolute;
+    background: #e9f46f;
+    z-index: 2;
+    top:60px;
+    left: 60px;
+    width:100px;
+    height: 100px;
+    border-radius: 10px;
+    padding: 3px;
+}
+.relative :nth-child(4){
+    position: absolute;
+    background: #44b50d;
+    z-index: 3;
+    top:80px;
+    left: 80px;
+    width:100px;
+    height: 100px;
+    border-radius: 10px;
+    padding: 3px;
+}
