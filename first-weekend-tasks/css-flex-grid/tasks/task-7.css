@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    position: fixed;      /* stays pinned to the top of the viewport */
+    position: fixed;      
     top: 0; left: 0; right: 0;
     height: 56px;
     background: white;
@@ -20,7 +20,7 @@ header {
     display: flex;
     align-items: center;
     padding: 0 16px;
-    z-index: 100;          /* above sidebar and page content */
+    z-index: 100;       
 }
 .menu-icon { font-size: 20px; margin-right: 20px; cursor: pointer; }
 .logo {
