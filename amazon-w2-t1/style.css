@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root {
+
+  --btn: #FF9900;       /* CTA buttons, logo arrow, Prime badges */
+  --head: #131921; /* Top nav bar */
+  --nav: #232F3E;    /* Secondary header/footer band */
+  --hov: #37475A;    /* Nav sub-bar, hover states */
+  --star: #FEBD69;         /* Ratings stars, Prime accents */
+  --link: #007185;    /* Text links */
+  --sec: #EAEDED;      /* Section backgrounds */
+  --text: #0F1111;         /* Body text */
+
+ /* spacing */
+  --s-1: 8px;
+  --s-2: 16px;
+  --s-3: 32px;
+ 
+}
+body{
+    color:var(--text);
+    background: var(--sec);
+    font-family: 'Segoe UI',arial, sans-serif;
+    line-height: 1.6;
+    font-size: 0.5em;
+}
+.nav-bar{
+    display:flex;
+    background: var(--nav);
+    /* justify-content: space-between; */
+    padding: var(--s-1);
+}
+.nav-links{
+    display:flex;
+    gap:var(--s-2);
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-links a{
+    color:var(--sec);
+    text-decoration: none;
+    font-weight: 600;
+    display: block;
+    border:solid 2px var(--nav);
+    transition: border-color 0.2s;
+}
+.nav-links a :hover{
+    border-color: var(--sec) ;
+}
+.header{
+    background:var(--head);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--s-1) var(--s-2);
+    color:var(--sec);
+}
+.header span{
+    cursor: pointer;
+}
+.logo{
+    width: 50px;height: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.search-bar{
+    max-width: 400px;
+    display: flex;
+}
+.search-bar input{
+    border: var(--head);
+    padding: var(--s-1) var(--s-2);
+    flex:1;
+    outline: none;
+    border-radius: 10px 0 0 10px;
+}
+.search-bar button{
+    background: var(--sec);
+    border: var(--s-1) var(--s-2);
+    border-left: 0;
+    border-radius: 0 10px 10px 0;
+    padding: var(--s-1);
+    cursor: pointer;
+}
+.language{
+    padding: var(--s-1) var(--s-2);
+    font-size: 14px;
+    /* cursor: pointer; */
+}
+.user{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background: var(--btn);
+    font-size: 10px;
+    text-align: center;
+    padding-top: 6px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.cart{
+    cursor: pointer;
+    font-size: 2em;
+}
+.hero {
+    background-image: url(./img/gaming.jpg);
+    background-size:cover;background-repeat: no-repeat;
+    min-height: 200px;
+}
+.hero-content{
+    margin:0 auto;
+}
+.shop-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap:var(--s-2);
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: var(--s-3);
+}
+.product{
+    width:200px;
+    padding: 5px;
+    margin: 5px;
+    background: rgba(0,0,0,0.2);
+    padding: var(--s-1);
+    border-radius: 14px;
+    transition: transform 0.25s,
+    border-color 0.25s;
+}
+.product :hover{
+    transform: translateY(-5px);
+    border-color:#6c5ce7;
+}
+.product a{
+    text-decoration: none;
+    color: var(--link);
+    margin-top: var(--s-2);
+    display: block;
+
+}
+h2{
+    text-align: center;
+    margin-bottom: var(--s-2);
+}
+.footer{
+    background: var(--nav);
+    margin: 0 auto;
+    min-height: 100px;
+    padding: var(--s-3);
+}
+.footer-nav{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    gap: var(--s-2);
+}
+.footer-nav a{
+    text-decoration: none;
+    color: var(--sec);
+}
+.footer p{
+    text-align: center;
+    color: var(--sec);
+}
