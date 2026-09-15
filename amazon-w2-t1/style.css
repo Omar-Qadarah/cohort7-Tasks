@@ -129,10 +129,11 @@ body{
     background: rgba(0,0,0,0.2);
     padding: var(--s-1);
     border-radius: 14px;
+    border: 2px solid rgba(0,0,0,0.2);
     transition: transform 0.25s,
     border-color 0.25s;
 }
-.product :hover{
+.product:hover{
     transform: translateY(-5px);
     border-color:#6c5ce7;
 }
