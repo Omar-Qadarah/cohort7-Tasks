@@ -121,11 +121,12 @@ body{
     background: var(--card-background);
     border-radius: 14px;
     border: solid #fff 2px; /*rgba(138, 138, 138, 0.626)*/
-    transition: border-color 0.25s, background-color 0.25s;
+    transition: border-color 0.25s, background-color 0.25s,transform 0.25s;
 }
 .video:hover{
     border-color: var(--border-hover);
     background-color: var(--card-hover);
+    transform: scale(1.05);
     cursor: pointer;
 }
 h2{

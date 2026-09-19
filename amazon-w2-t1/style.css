@@ -48,7 +48,7 @@ body{
     border:solid 2px var(--nav);
     transition: border-color 0.2s;
 }
-.nav-links a :hover{
+.nav-links a:hover{
     border-color: var(--sec) ;
 }
 .header{
@@ -131,10 +131,11 @@ body{
     border-radius: 14px;
     border: 2px solid rgba(0,0,0,0.2);
     transition: transform 0.25s,
-    border-color 0.25s;
+    border-color 0.25s, transform 0.25s;
 }
 .product:hover{
     transform: translateY(-5px);
+    transform: scale(1.1);
     border-color:#6c5ce7;
 }
 .product a{
